@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManyButterflies.Plugins", "ManyButterflies.Plugins.csproj", "{C20C81BB-F2DB-0253-05F3-0AB4E7A2020B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManyButterflies", "ManyButterflies.csproj", "{CFD349C2-65E8-2D29-3CB4-A64FE4A86491}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManyButterflies.Editor", "ManyButterflies.Editor.csproj", "{C2900DF0-950A-A56E-D204-6E9632E46BBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C20C81BB-F2DB-0253-05F3-0AB4E7A2020B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C20C81BB-F2DB-0253-05F3-0AB4E7A2020B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C20C81BB-F2DB-0253-05F3-0AB4E7A2020B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C20C81BB-F2DB-0253-05F3-0AB4E7A2020B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFD349C2-65E8-2D29-3CB4-A64FE4A86491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFD349C2-65E8-2D29-3CB4-A64FE4A86491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFD349C2-65E8-2D29-3CB4-A64FE4A86491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFD349C2-65E8-2D29-3CB4-A64FE4A86491}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2900DF0-950A-A56E-D204-6E9632E46BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2900DF0-950A-A56E-D204-6E9632E46BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2900DF0-950A-A56E-D204-6E9632E46BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2900DF0-950A-A56E-D204-6E9632E46BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

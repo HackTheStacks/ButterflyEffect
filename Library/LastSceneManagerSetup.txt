@@ -1,0 +1,7 @@
+sceneSetups:
+- path: Assets/_Scences/blueButterfly.unity
+  isLoaded: 1
+  isActive: 1
+- path: Assets/_Scences/Book.unity
+  isLoaded: 1
+  isActive: 0

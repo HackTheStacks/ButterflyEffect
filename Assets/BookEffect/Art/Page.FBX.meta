@@ -1,0 +1,341 @@
+fileFormatVersion: 2
+guid: 42d1b2123cc41534983ccd8ec73ba0b7
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Page
+    100004: Page_Bottom_A
+    100006: Page_Bottom_B
+    100008: Page_Bottom_C
+    100010: Page_Bottom_D
+    100012: Page_Bottom_F
+    100014: Page_Top_A
+    100016: Page_Top_B
+    100018: Page_Top_C
+    100020: Page_Top_D
+    100022: Page_Top_E
+    400000: //RootNode
+    400002: Page
+    400004: Page_Bottom_A
+    400006: Page_Bottom_B
+    400008: Page_Bottom_C
+    400010: Page_Bottom_D
+    400012: Page_Bottom_F
+    400014: Page_Top_A
+    400016: Page_Top_B
+    400018: Page_Top_C
+    400020: Page_Top_D
+    400022: Page_Top_E
+    4300000: Page
+    7400000: Wait_End
+    7400002: Turn_Page
+    7400004: Turn_Wait
+    7400006: Turn_Back
+    7400008: Wait
+    9500000: //RootNode
+    13700000: Page
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Wait
+      takeName: OpenBook_FixUVs
+      firstFrame: 20
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Page
+        weight: 1
+      - path: Page_Bottom_A
+        weight: 1
+      - path: Page_Bottom_A/Page_Bottom_B
+        weight: 1
+      - path: Page_Bottom_A/Page_Bottom_B/Page_Bottom_C
+        weight: 1
+      - path: Page_Bottom_A/Page_Bottom_B/Page_Bottom_C/Page_Bottom_D
+        weight: 1
+      - path: Page_Bottom_A/Page_Bottom_B/Page_Bottom_C/Page_Bottom_D/Page_Bottom_F
+        weight: 1
+      - path: Page_Top_A
+        weight: 1
+      - path: Page_Top_A/Page_Top_B
+        weight: 1
+      - path: Page_Top_A/Page_Top_B/Page_Top_C
+        weight: 1
+      - path: Page_Top_A/Page_Top_B/Page_Top_C/Page_Top_D
+        weight: 1
+      - path: Page_Top_A/Page_Top_B/Page_Top_C/Page_Top_D/Page_Top_E
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Turn_Page
+      takeName: OpenBook_FixUVs
+      firstFrame: 40
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Page
+        weight: 1
+      - path: Page_Bottom_A
+        weight: 1
+      - path: Page_Bottom_A/Page_Bottom_B
+        weight: 1
+      - path: Page_Bottom_A/Page_Bottom_B/Page_Bottom_C
+        weight: 1
+      - path: Page_Bottom_A/Page_Bottom_B/Page_Bottom_C/Page_Bottom_D
+        weight: 1
+      - path: Page_Bottom_A/Page_Bottom_B/Page_Bottom_C/Page_Bottom_D/Page_Bottom_F
+        weight: 1
+      - path: Page_Top_A
+        weight: 1
+      - path: Page_Top_A/Page_Top_B
+        weight: 1
+      - path: Page_Top_A/Page_Top_B/Page_Top_C
+        weight: 1
+      - path: Page_Top_A/Page_Top_B/Page_Top_C/Page_Top_D
+        weight: 1
+      - path: Page_Top_A/Page_Top_B/Page_Top_C/Page_Top_D/Page_Top_E
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Turn_Wait
+      takeName: OpenBook_FixUVs
+      firstFrame: 100
+      lastFrame: 105
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Page
+        weight: 1
+      - path: Page_Bottom_A
+        weight: 1
+      - path: Page_Bottom_A/Page_Bottom_B
+        weight: 1
+      - path: Page_Bottom_A/Page_Bottom_B/Page_Bottom_C
+        weight: 1
+      - path: Page_Bottom_A/Page_Bottom_B/Page_Bottom_C/Page_Bottom_D
+        weight: 1
+      - path: Page_Bottom_A/Page_Bottom_B/Page_Bottom_C/Page_Bottom_D/Page_Bottom_F
+        weight: 1
+      - path: Page_Top_A
+        weight: 1
+      - path: Page_Top_A/Page_Top_B
+        weight: 1
+      - path: Page_Top_A/Page_Top_B/Page_Top_C
+        weight: 1
+      - path: Page_Top_A/Page_Top_B/Page_Top_C/Page_Top_D
+        weight: 1
+      - path: Page_Top_A/Page_Top_B/Page_Top_C/Page_Top_D/Page_Top_E
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Turn_Back
+      takeName: OpenBook_FixUVs
+      firstFrame: 120
+      lastFrame: 170
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Page
+        weight: 1
+      - path: Page_Bottom_A
+        weight: 1
+      - path: Page_Bottom_A/Page_Bottom_B
+        weight: 1
+      - path: Page_Bottom_A/Page_Bottom_B/Page_Bottom_C
+        weight: 1
+      - path: Page_Bottom_A/Page_Bottom_B/Page_Bottom_C/Page_Bottom_D
+        weight: 1
+      - path: Page_Bottom_A/Page_Bottom_B/Page_Bottom_C/Page_Bottom_D/Page_Bottom_F
+        weight: 1
+      - path: Page_Top_A
+        weight: 1
+      - path: Page_Top_A/Page_Top_B
+        weight: 1
+      - path: Page_Top_A/Page_Top_B/Page_Top_C
+        weight: 1
+      - path: Page_Top_A/Page_Top_B/Page_Top_C/Page_Top_D
+        weight: 1
+      - path: Page_Top_A/Page_Top_B/Page_Top_C/Page_Top_D/Page_Top_E
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Wait_End
+      takeName: OpenBook_FixUVs
+      firstFrame: 20
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Page
+        weight: 1
+      - path: Page_Bottom_A
+        weight: 1
+      - path: Page_Bottom_A/Page_Bottom_B
+        weight: 1
+      - path: Page_Bottom_A/Page_Bottom_B/Page_Bottom_C
+        weight: 1
+      - path: Page_Bottom_A/Page_Bottom_B/Page_Bottom_C/Page_Bottom_D
+        weight: 1
+      - path: Page_Bottom_A/Page_Bottom_B/Page_Bottom_C/Page_Bottom_D/Page_Bottom_F
+        weight: 1
+      - path: Page_Top_A
+        weight: 1
+      - path: Page_Top_A/Page_Top_B
+        weight: 1
+      - path: Page_Top_A/Page_Top_B/Page_Top_C
+        weight: 1
+      - path: Page_Top_A/Page_Top_B/Page_Top_C/Page_Top_D
+        weight: 1
+      - path: Page_Top_A/Page_Top_B/Page_Top_C/Page_Top_D/Page_Top_E
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
