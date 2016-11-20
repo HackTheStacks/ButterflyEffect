@@ -76,12 +76,14 @@
     <Compile Include="Assets\BookEffect\Scripts\UI_Control.cs" />
     <Compile Include="Assets\ColorSuite\ColorSuite.cs" />
     <Compile Include="Assets\DeferredAO\DeferredAO.cs" />
+    <Compile Include="Assets\Hover.cs" />
+    <Compile Include="Assets\Inactive.cs" />
     <Compile Include="Assets\Kino\Bloom\Bloom.cs" />
     <Compile Include="Assets\Kino\Vignette\Vignette.cs" />
     <Compile Include="Assets\Kvant\Spray\Scripts\BulkMesh.cs" />
     <Compile Include="Assets\Kvant\Spray\Spray.cs" />
     <Compile Include="Assets\OpenBook.cs" />
-    <Compile Include="Assets\SceneManager.cs" />
+    <Compile Include="Assets\SceneManagerBev.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_Teleporter.cs" />

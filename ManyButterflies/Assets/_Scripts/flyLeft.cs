@@ -22,13 +22,13 @@ public class flyLeft : MonoBehaviour
         if (timer < 5.0)
         {
 
-            transform.Translate(Vector3.back * Time.deltaTime * 4, Space.World);
-            transform.Translate(Vector3.right * Time.deltaTime * 4, Space.World);
-            transform.Translate(Vector3.up * Time.deltaTime * 4, Space.World);
+            transform.Translate(Vector3.back * Time.deltaTime , Space.World);
+            transform.Translate(Vector3.right * Time.deltaTime , Space.World);
+            transform.Translate(Vector3.up * Time.deltaTime * 2, Space.World);
         }
 
         transform.Translate(Random.insideUnitSphere);
-        transform.Translate(Vector3.back * Time.deltaTime * 5, Space.World);
+        transform.Translate(Vector3.back * Time.deltaTime, Space.World);
     }
 }
 

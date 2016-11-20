@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 using Kvant;
 
 public class OpenBook : MonoBehaviour {
@@ -10,12 +11,23 @@ public class OpenBook : MonoBehaviour {
     private bool bookOpen = false;
     [SerializeField]
     private GameObject leafEmitter;
+    [SerializeField]
+    private GameObject mainButterfly;
+    [SerializeField]
+    private GameObject group;
+    [SerializeField]
+    private GameObject group2;
+    [SerializeField]
 
-    
+
 
     void Start()
     {
         bookCrontrol = this.GetComponent<BookControl>();
+        group.gameObject.SetActive(false);
+        group2.gameObject.SetActive(false);
+        mainButterfly.gameObject.SetActive(false);
+
     }
 	
 	// Update is called once per frame
@@ -24,16 +36,21 @@ public class OpenBook : MonoBehaviour {
         {
             TurnBookCover();
         }
-	}
+        if (bookOpen)
+        {
+            mainButterfly.gameObject.SetActive(true);
+
+        }
+    }
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("obj enter");
+        Debug.Log("obj enter" + other.gameObject.tag);
         if (other.gameObject.tag == "Wand" && !bookOpen)
         {
             TurnBookCover();
-            
-            
+
+
         }
     }
   
@@ -54,5 +71,9 @@ public class OpenBook : MonoBehaviour {
         bookCrontrol.Open_Book();
         bookOpen = true;
         StartCoroutine(SparayLeaves());
+        group.gameObject.SetActive(true);
+        group2.gameObject.SetActive(true);
+       
+
     }
 }
